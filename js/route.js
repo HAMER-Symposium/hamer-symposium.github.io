@@ -3,7 +3,6 @@ ApplicationRouter = Backbone.Marionette.AppRouter.extend({
 		"": "home",
 		"home": "home",
 		"program": "program",
-		"posters": "posters",
 		"transport": "transport",
 		"photos": "photos",
 		"registration": "registration",
