@@ -103,3 +103,12 @@ ContentSubmissionView = Backbone.View.extend({
 	}
 });
 
+ContentEventPosterView = Backbone.View.extend({
+	initialize: function (options) {
+	},
+	render: function (options) {
+		var template = _.template($("#template_content_eventposter").html(), {});
+		this.$el.html(template);
+	}
+});
+
