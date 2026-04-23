@@ -199,6 +199,14 @@ p.programDate {
     font-size: 12pt;
 }
 
+.programTable>thead>tr>th,.programTable>tbody>tr>th,.programTable>tfoot>tr>th,
+.programTable>thead>tr>td,.programTable>tbody>tr>td,.programTable>tfoot>tr>td,
+.posterTable>thead>tr>th,.posterTable>tbody>tr>th,.posterTable>tfoot>tr>th,
+.posterTable>thead>tr>td,.posterTable>tbody>tr>td,.posterTable>tfoot>tr>td {
+    text-align: center;
+    vertical-align: middle;
+}
+
 .programTable a, .posterTable a {
     font-size: 12pt;
 }
