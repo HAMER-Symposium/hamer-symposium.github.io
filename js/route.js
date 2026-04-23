@@ -8,7 +8,8 @@ ApplicationRouter = Backbone.Marionette.AppRouter.extend({
 		"registration": "registration",
 		"submission": "submission",
 		"keynote": "keynote",
-		"eventposter": "eventposter"
+		"eventposter": "eventposter",
+		"posters": "posters",
 	},
 
 	deselectPills: function () {
