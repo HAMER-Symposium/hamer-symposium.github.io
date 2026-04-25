@@ -66,6 +66,16 @@ h3 {
   padding: 2em;
 }
 
+@media screen and (min-width: 768px) {
+        .keynote-profile-row {
+                display: flex;
+                align-items: center;
+        }
+        .keynote-profile-row > [class*='col-'] {
+                float: none;
+        }
+}
+
 #logo {
   background-image:url(../images/northeast.png); 
   width:70%; 
