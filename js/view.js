@@ -67,6 +67,15 @@ ContentKeynoteView = Backbone.View.extend({
 	}
 });
 
+ContentPanelView = Backbone.View.extend({
+	initialize: function (options) {
+	},
+	render: function (options) {
+		var template = _.template($("#template_content_panel").html(), {});
+		this.$el.html(template);
+	}
+});
+
 ContentTransportView = Backbone.View.extend({
 	initialize: function (options) {
 	},

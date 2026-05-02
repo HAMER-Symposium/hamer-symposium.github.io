@@ -10,6 +10,7 @@ ApplicationRouter = Backbone.Marionette.AppRouter.extend({
 		"keynote": "keynote",
 		"eventposter": "eventposter",
 		"posters": "posters",
+		"panel": "panel",
 	},
 
 	deselectPills: function () {
@@ -45,6 +46,11 @@ ApplicationRouter = Backbone.Marionette.AppRouter.extend({
 	keynote: function () {
 		this.selectPill('ul.sidebar li.keynote');
 		MyApp.contentRegion.show(new ContentKeynoteView());
+	},
+
+	panel: function () {
+		this.selectPill('ul.sidebar li.panel');
+		MyApp.contentRegion.show(new ContentPanelView());
 	},
 
 	transport: function () {
