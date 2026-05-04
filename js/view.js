@@ -112,6 +112,15 @@ ContentSubmissionView = Backbone.View.extend({
 	}
 });
 
+ContentAwardView = Backbone.View.extend({
+	initialize: function (options) {
+	},
+	render: function (options) {
+		var template = _.template($("#template_content_award").html(), {});
+		this.$el.html(template);
+	}
+});
+
 ContentEventPosterView = Backbone.View.extend({
 	initialize: function (options) {
 	},
